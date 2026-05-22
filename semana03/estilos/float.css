@@ -8,6 +8,9 @@ main {
 
 p {
     text-align: justify;
+    /* position: relative;
+    top: 110px;
+    left: 20px; */
 }
 
 .col1 img {
