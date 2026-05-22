@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }*/
 
+:root {
+    --alinhamento-texto: center;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -30,7 +34,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--alinhamento-texto);
 }
 
 main img {
@@ -53,5 +57,5 @@ p {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--alinhamento-texto);
 }
