@@ -2,7 +2,6 @@
 
 :root {
     --cor-primaria: #034603;
-    --cor-secundaria: #044852;
     --cor-destaque: #ccf731;
     --cor-texto: #1c1d1a;
     --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.5);
@@ -34,6 +33,10 @@ footer {
     background-color: var(--cor-destaque);
 }
 
+.socialmedia a, nav a, footer a {
+    text-decoration: none;
+}
+
 h1, h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
@@ -57,7 +60,9 @@ h1 {
     text-shadow: 5px 5px 4px #000;
 }
 
-article {
+/* Seletores de classe */
+
+.hero article {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -76,9 +81,7 @@ article {
   margin: 0 5px;
 }
 
-/* Seletores de classe */
-
-.redes_sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
