@@ -3,7 +3,8 @@
 :root {
     --cor-primaria: #034603;
     --cor-secundaria: #044852;
-    --cor-destaque: #4c6103;
+    --cor-destaque: #ccf731;
+    --cor-texto: #1c1d1a;
     --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.5);
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -21,7 +22,7 @@
 
 body {
     font-family: var(--fonte-body);
-    color: var(--cor-destaque);
+    color: var(--cor-texto);
 }
 
 header, main, footer {
@@ -55,7 +56,6 @@ h1 {
     color: #f5f236;
     text-shadow: 5px 5px 4px #000;
 }
-
 
 article {
     position: absolute;
