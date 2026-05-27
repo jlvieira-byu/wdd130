@@ -33,7 +33,7 @@ footer {
     background-color: var(--cor-destaque);
 }
 
-.socialmedia a, nav a, footer a {
+.redes-sociais, a, nav a, footer a {
     text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h1 {
   margin: 0 5px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
