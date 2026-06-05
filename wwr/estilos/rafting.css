@@ -1,10 +1,10 @@
 /* Variáveis globais */
 
 :root {
-    --cor-primaria: #034603;
-    --cor-destaque: #ccf731;
-    --cor-texto: #1c1d1a;
-    --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.5);
+    --cor-primaria: rgb(3, 70, 3);
+    --cor-destaque: rgb(204 247 49);
+    --cor-texto: rgb(28, 29, 26);
+    /* --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.1); */
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -91,9 +91,10 @@ h1, h2 {
     right: 10px;
     width: auto;
     padding: 16px;
-    text-align: center;
-    background-color: var(--cor-sobreposicao-titulo);
+    font-weight: bold;
     color: var(--cor-destaque);
+    text-align: center;
+    /* background-color: var(--cor-sobreposicao-titulo); */
 }
 
 .hero article img {
