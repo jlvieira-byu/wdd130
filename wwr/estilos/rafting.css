@@ -4,7 +4,7 @@
     --cor-primaria: rgb(3, 70, 3);
     --cor-destaque: rgb(204 247 47);
     --cor-texto: rgb(28, 29, 26);
-    /* --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.1); */
+    --cor-sobreposicao: rgba(0, 0, 0, 0.6);
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -80,6 +80,7 @@ h1, h2 {
     width: 100%;
     padding: 16px;
     color: var(--cor-destaque);
+    background-color: var(--cor-sobreposicao);
 }
 
 /* Seletores de classe */
@@ -94,7 +95,7 @@ h1, h2 {
     font-weight: bold;
     color: var(--cor-destaque);
     text-align: center;
-    /* background-color: var(--cor-sobreposicao-titulo); */
+    background-color: var(--cor-sobreposicao);
 }
 
 .hero article img {
