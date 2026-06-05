@@ -5,7 +5,6 @@
     --cor-destaque: #ccf731;
     --cor-texto: #1c1d1a;
     --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.5);
-    --cor-sobreposicao-texto: rgba(0, 0, 0, 0.1);
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -59,15 +58,6 @@ footer {
     color: var(--cor-texto);
 }
 
-/* footer nav {
-    margin: 0px;
-    padding: 0px;
-} */
-
-/* .redes-sociais, a, nav a, footer a {
-    text-decoration: none;
-} */
-
 a {
     text-decoration: none;
 }
@@ -77,10 +67,6 @@ nav { /* aplica sobre header e footer */
     justify-content: center;
     gap: 20px;
 }
-
-/* nav a:hover {
-    color: #ffffff;
-} */
 
 h1, h2 {
     font-family: var(--fonte-titulo);
@@ -93,11 +79,7 @@ h1, h2 {
     top: 20px;
     width: 100%;
     padding: 16px;
-    /* text-align: centser; */
-    /* opacity: 0.7; */
-    /* background-color: var(--cor-sobreposicao-titulo); */
     color: var(--cor-destaque);
-    /* text-shadow: 5px 5px 4px var(--cor-texto); */
 }
 
 /* Seletores de classe */
@@ -112,7 +94,6 @@ h1, h2 {
     text-align: center;
     background-color: var(--cor-sobreposicao-titulo);
     color: var(--cor-destaque);
-    /* text-shadow: 5px 5px 4px #000; */
 }
 
 .hero article img {
@@ -121,11 +102,7 @@ h1, h2 {
   margin: 0 5px;
 }
 
-/* .redes-sociais a {
-    text-decoration: none;
-} */
-
-/* .redes-sociais img { */
+/* .redes-sociais img { - trocado em razão da auditoria*/
 .socialmedia img {
     width: 36px;
     height: auto;
@@ -154,14 +131,12 @@ h1, h2 {
 }
 
 .historia img {
-    display: block;
     width: 200px;
 }
 
 .aventura {
     margin-left: 0;
     margin-right: 0;
-    /* padding: 0px; */
 }
 
 .aventura div {
