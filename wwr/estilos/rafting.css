@@ -5,6 +5,7 @@
     --cor-destaque: #ccf731;
     --cor-texto: #1c1d1a;
     --cor-sobreposicao-titulo: rgba(0, 0, 0, 0.5);
+    --cor-sobreposicao-texto: rgba(0, 0, 0, 0.1);
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -31,10 +32,17 @@ header, main, footer {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 200px 1fr;
+    justify-items: center;
     align-items: center;
-    background-color: rgb(1, 65, 1);
-    font-weight: bold
+    background-color: var(--cor-destaque);
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+header img {
+    width: 150px;
+    padding: 20px;
 }
 
 nav, p, section, article {
@@ -44,37 +52,35 @@ nav, p, section, article {
 }
 
 footer {
-    background-color: var(--cor-destaque);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
+    background-color: var(--cor-destaque);
+    color: var(--cor-texto);
 }
 
-footer nav {
+/* footer nav {
     margin: 0px;
     padding: 0px;
-}
+} */
 
-.redes-sociais, a, nav a, footer a {
+/* .redes-sociais, a, nav a, footer a {
+    text-decoration: none;
+} */
+
+a {
     text-decoration: none;
 }
 
-nav {
+nav { /* aplica sobre header e footer */
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-nav a{
-    list-style: none;
-    color: #f5f236;
-}
-
-nav a:hover {
+/* nav a:hover {
     color: #ffffff;
-}
+} */
 
 h1, h2 {
     font-family: var(--fonte-titulo);
@@ -87,11 +93,11 @@ h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--cor-sobreposicao-titulo);
-    color: #f5f236;
-    text-shadow: 5px 5px 4px #000;
+    /* text-align: centser; */
+    /* opacity: 0.7; */
+    /* background-color: var(--cor-sobreposicao-titulo); */
+    color: var(--cor-destaque);
+    /* text-shadow: 5px 5px 4px var(--cor-texto); */
 }
 
 /* Seletores de classe */
@@ -104,9 +110,9 @@ h1 {
     width: auto;
     padding: 16px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #f7f30e;
-    text-shadow: 5px 5px 4px #000;
+    background-color: var(--cor-sobreposicao-titulo);
+    color: var(--cor-destaque);
+    /* text-shadow: 5px 5px 4px #000; */
 }
 
 .hero article img {
@@ -115,9 +121,9 @@ h1 {
   margin: 0 5px;
 }
 
-.redes-sociais a {
+/* .redes-sociais a {
     text-decoration: none;
-}
+} */
 
 .redes-sociais img {
     width: 36px;
@@ -135,7 +141,7 @@ h1 {
 }
 
 .historia {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--cor-sobreposicao-texto);
     margin-left: 0;
     margin-right: 0;
 }
