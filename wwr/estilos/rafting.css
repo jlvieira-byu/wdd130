@@ -88,7 +88,7 @@ h1, h2 {
     text-align: center;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -125,7 +125,8 @@ h1 {
     text-decoration: none;
 } */
 
-.redes-sociais img {
+/* .redes-sociais img { */
+.socialmedia img {
     width: 36px;
     height: auto;
 }
@@ -141,7 +142,7 @@ h1 {
 }
 
 .historia {
-    background-color: var(--cor-sobreposicao-texto);
+    background-color: var(--cor-destaque);
     margin-left: 0;
     margin-right: 0;
 }
