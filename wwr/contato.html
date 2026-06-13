@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fale Conosco - Bote Laranja Rafting S.A.</title>
-  <meta name="description" content="Contatos oficiais da empresa">
+  <meta name="description" content="Fale conosco através dos contatos oficiais da empresa Bote Laranja Rafting S.A.">
   <meta name="author" content="João Vieira">
   <link rel="stylesheet" href="estilos/rafting.css">
 </head>
@@ -22,60 +22,76 @@
   </header>
 
   <main>
-    <!-- <div class="hero">
-      <img src="imagens/rafting-hero.jpg" alt="Pessoas fazendo rafting em corredeira">
+    <section class="contatos">
       <h1>Bote Laranja Rafting S.A.</h1>
-      <article>
-        <img src="imagens/clientes-felizes.jpg" alt="Clientes felizes">
-        <p>No rafting, cada corredeira é um convite à aventura. Entre ondas, curvas e desafios, você sente a adrenalina
-          correr enquanto explora paisagens incríveis e vive momentos inesquecíveis em equipe. Mais do que um esporte, o
-          rafting é uma experiência de superação, emoção e contato direto com a natureza. Venha conosco e desfrute de
-          momentos inesquecíveis!</p>
-      </article>
-    </div>
-
-    <section class="historia">
-      <h2>História</h2>
-      <div>
-        <p>A Bote Laranja Rafting S.A. nasceu da paixão de um grupo de aventureiros pelos rios, pelas corredeiras e pela
-          natureza. O que começou como expedições entre amigos logo se transformou em uma empresa dedicada à aventura.
-        </p>
-        <img src="imagens/sobre-corredeira-historia.jpg" alt="Grupo de pessoas fazendo rafting em corredeira">
-        <p>Ao longo dos anos, a empresa ampliou suas atividades, treinou equipes especializadas e investiu em segurança.
-          Hoje, oferece experiências emocionantes, unindo diversão, natureza e espírito de equipe por todo o mundo!</p>
-      </div>
+      <p>Estrada Brotas-Patrimônio, Km 18
+        <br>Brotas, São Paulo
+        <br>+55 11 91234-5678
+        <br>info@botelaranja.rft
+      </p>
     </section>
 
-    <section class="aventura">
-      <h2>A aventura está te esperando!</h2>
+    <section class="map-formulario">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3688.709605394074!2d-48.04183309300894!3d-22.402302325299562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1781336216766!5m2!1spt-BR!2sbr"
+        width="450" height="310" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <form>
+        <div class="campo-formulario">
+          <label for="nome-usuario">Nome:</label>
+          <input type="text" id="nome-usuario" name="nome-usuario" placeholder="Digite aqui...">
+        </div>
+        <div class="campo-formulario">
+          <label for="email-usuario">E-mail:</label>
+          <input type="email" name="email-usuario" id="email-usuario" placeholder="Digite aqui...">
+        </div>
+        <div class="campo-formulario">
+          <label for="proposito-usuario">Propósito da Mensagem:</label>
+          <fieldset>
+            <label><input type="radio" name="proposito-usuario" id="consulta" value="consulta" checked> Consulta
+              Geral</label>
+            <label><input type="radio" name="proposito-usuario" id="reserva" value="reserva"> Pergunta sobre
+              Reserva</label>
+            <label><input type="radio" name="proposito-usuario" id="sugestao" value="sugestao"> Sugestão de Site</label>
+          </fieldset>
+        </div>
+        <div class="campo-formulario">
+          <label for="mensagem-usuario">Mensagem:</label>
+          <textarea name="mensagem-usuario" id="mensagem-usuario" rows="4" placeholder="Digite aqui..."></textarea>
+        </div>
+        <div class="campo-formulario-checkbox">
+          <input type="checkbox" name="newsletter-usuario" id="newsletter-usuario">
+          <label for="newsletter-usuario">Quero receber a newsletter mensal</label>
+        </div>
+
+        <button class="botao-formulario" type="submit">Entrar em Contato!</button>
+
+      </form>
+    </section>
+
+    <section class="funcionarios">
+      <h2>Estamos Aqui para Servi-lo</h2>
       <div>
         <figure>
-          <img src="imagens/sobre-rio-cetina.jpg" alt="Rio Cetina - Croácia">
-          <figcaption>Rio Cetina - Croácia</figcaption>
+          <img src="imagens/contato-bruce.jpg" alt="Bruce - Coordenador de Expedições">
+          <figcaption>Bruce - Coordenador de Expedições</figcaption>
         </figure>
         <figure>
-          <img src="imagens/sobre-rio-cisadane.jpg" alt="Rio Cisadane - Indonésia">
-          <figcaption>Rio Cisadane - Indonésia</figcaption>
+          <img src="imagens/contato-christina.jpg" alt="Cristina - CEO">
+          <figcaption>Cristina - CEO</figcaption>
         </figure>
         <figure>
-          <img src="imagens/sobre-rio-mae-taeng.jpg" alt="Rio Mae Taeng - Tailândia">
-          <figcaption>Rio Mae Taeng - Tailândia</figcaption>
-        </figure>
-        <figure>
-          <img src="imagens/sobre-rio-salmon.jpg" alt="Rio Salmon - USA">
-          <figcaption>Rio Salmon - USA</figcaption>
-        </figure>
-        <figure>
-          <img src="imagens/sobre-rio-thompson.jpg" alt="Rio Tompson - Canadá">
-          <figcaption>Rio Tompson - Canadá</figcaption>
+          <img src="imagens/contato-yara.jpg" alt="Yara - Coordenadora de Provisões">
+          <figcaption>Yara - Coordenadora de Provisões</figcaption>
         </figure>
       </div>
-    </section> -->
+    </section>
 
     <footer>
       <p>&copy; 2026 &#10070; Bote Laranja Rafting S.A. &#10070; João Vieira</p>
       <!-- <nav class="redes-sociais"> -->
-      <nav class="socialmedia">
+      <nav class="redes-sociais">
         <a href="https://facebook.com"><img src="imagens/facebook-logo.png" alt="Ícone do Facebook"></a>
         <a href="https://linkedin.com"><img src="imagens/linkedin-logo.png" alt="Ícone do Linkedin"></a>
         <a href="https://instagram.com"><img src="imagens/instagram-logo.png" alt="Ícone do Instagram"></a>
