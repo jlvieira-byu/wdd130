@@ -141,7 +141,7 @@ h1, h2 {
     width: 200px;
 }
 
-.aventura {
+.aventura, .finalidade-ofertas {
     margin-left: 0;
     margin-right: 0;
 }
@@ -200,7 +200,7 @@ h1, h2 {
     padding: 5px;
 }
 
-form {
+.map-formulario form {
     display: grid;
 }
 
@@ -221,4 +221,75 @@ form {
     width: 100%;
     height: 10rem;
     object-fit: cover;
+}
+
+
+
+/* index */
+
+.index-conteiner {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    align-items: start;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+}
+
+.finalidade-ofertas div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.finalidade-ofertas img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.chamada-passeios {
+    border-radius: 10px;
+    background-color: var(--cor-destaque);
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+}
+
+.chamada-passeios a {
+    border-radius: 0.5rem;
+    padding: 10px 30px;
+    background-color: var(--cor-link-botao);
+    display: inline-block;
+    color: var(--cor-texto-destaque);
+    font-weight: bold;
+}
+
+.newsletter {
+  display: block;
+  background-color: var(--cor-destaque);
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.newsletter-linha {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 8px;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 6px 8px;
+}
+
+.newsletter .botao-formulario {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
 }

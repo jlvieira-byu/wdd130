@@ -8,7 +8,7 @@
   <meta name="description"
     content="Página principal da empresa Bote Laranja Rafting S.A. Navegue para conhecer mais sobre nós e nossos passeios, e esteja à vontade para entrar em contato e agendar sua próxima aventura!">
   <meta name="author" content="João Vieira">
-  <link rel="stylesheet" href="estilos/rafting.css">
+  <link rel="stylesheet" href="estilos/rafting copy.css">
 </head>
 
 <body>
@@ -23,27 +23,16 @@
   </header>
 
   <main>
-    <div class="hero">
+    <div class="hero-index">
       <img src="imagens/index-hero.jpg" alt="Pessoas fazendo rafting em corredeira">
       <h1>A Aventura Já Vai Começar!</h1>
-    </div>
-
-    <div class="index-conteiner">
-      <section class="chamada-passeios">
-        <h2>Já escolheu seu próximo desafio?</h2>
-        <p>Embarque já em uma de nossas odisséias!</p>
-        <a href="passeios.html">Nossos Passeios</a>
-      </section>
-
-
-      <form class="newsletter">
-        <!-- <p class="newsletter-titulo">Receba nossa newsletter!</p> -->
-        <h2>Receba nossa newsletter!</h2>
-        <div class="newsletter-linha">
+      <form class="news-formulario">
+        <div class="campo-formulario">
+          <label>Se inscreva para receber nossa newsletter!</label>
           <label for="nome-usuario">Nome:</label>
           <input type="text" id="nome-usuario" name="nome-usuario" placeholder="Digite aqui...">
         </div>
-        <div class="newsletter-linha">
+        <div class="campo-formulario">
           <label for="email-usuario">E-mail:</label>
           <input type="email" name="email-usuario" id="email-usuario" placeholder="Digite aqui...">
         </div>
@@ -51,11 +40,20 @@
           <button class="botao-formulario" type="submit">Quero me inscrever!</button>
         </div>
       </form>
+    </div>
+
+    <div class="news-formulario">
+      <section class="chamada-passeios">
+        <h2>Já escolheu seu próximo desafio?</h2>
+        <p>Embarque já em uma de nossas odisséias!</p>
+        <a href="passeios.html">Nossos Passeios</a>
+      </section>
+
 
     </div>
 
-
     <section class="finalidade-ofertas">
+      <!-- <h2>Adventure Awaits You!</h2> -->
       <h2>A aventura está te esperando!</h2>
       <div>
         <figure>
