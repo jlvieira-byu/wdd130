@@ -4,7 +4,9 @@
     --cor-primaria: rgb(3, 70, 3);
     --cor-destaque: rgb(204 247 47);
     --cor-texto: rgb(28, 29, 26);
+    --cor-texto-destaque: rgb(240, 248, 225);
     --cor-sobreposicao: rgba(0, 0, 0, 0.6);
+    --cor-link-botao: rgb(44, 3, 158);
     --fonte-titulo: "Segoe UI", "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
