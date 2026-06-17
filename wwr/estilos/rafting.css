@@ -64,7 +64,7 @@ a {
     text-decoration: none;
 }
 
-nav { /* aplica sobre header e footer */
+nav {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -226,15 +226,10 @@ h1, h2 {
 }
 
 
-
-/* index */
-
 .index-conteiner {
     display: grid;
     grid-template-columns: 60% 1fr;
     align-items: start;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
 }
 
 .finalidade-ofertas div {
@@ -259,7 +254,20 @@ h1, h2 {
     width: 80%;
 }
 
-.chamada-passeios a {
+.chamada-contato {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 250px;
+    background-color: var(--cor-destaque);
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+}
+
+
+.chamada-passeios a, .chamada-contato a {
     border-radius: 0.5rem;
     padding: 10px 30px;
     background-color: var(--cor-link-botao);
@@ -294,4 +302,73 @@ h1, h2 {
   width: 100%;
   margin-top: 6px;
   padding: 8px;
+}
+
+.passeios-detalhes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.passeios-detalhes .passeio {
+    border: 1px solid var(--cor-primaria);
+}
+
+.passeios-detalhes img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.passeios-alta {
+    margin: 20px 0 0 0;
+    padding: 10px 0px;
+    width: 100%;
+    color: var(--cor-destaque);
+    background-color: var(--cor-sobreposicao);
+}
+
+.table-passeios {
+    margin: 10px auto 20px auto;
+    border-collapse: collapse;
+    border: 2px solid var(--cor-sobreposicao);
+    letter-spacing: 1px;
+    background-color: var(--cor-destaque);
+}
+
+.table-passeios th, .table-passeios td {
+    border: 1px solid var(--cor-sobreposicao);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: var(--cor-sobreposicao);
+    color: var(--cor-texto-destaque);
+}
+
+.passeios-seguranca {
+    position: relative;
+    background-color: var(--cor-destaque);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.passeios-seguranca article {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 200px;;
+    padding: 8px;
+    font-weight: bold;
+    color: var(--cor-destaque);
+    text-align: center;
+    background-color: var(--cor-sobreposicao);
+}
+
+.passeios-seguranca img {
+    width: 800px;
+    padding: 10px;
 }
